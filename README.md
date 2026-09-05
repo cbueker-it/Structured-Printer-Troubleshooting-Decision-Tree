@@ -10,6 +10,14 @@ I created this decision tree as a standardized troubleshooting reference for com
 
 Printer incidents can involve several different layers, including physical hardware, workstation configuration, print queues, network connectivity, drivers, ports, and Windows services. Troubleshooting without a structured process can result in unnecessary changes, longer resolution times, and incomplete incident documentation.
 
+**Project Objectives**
+
+- Develop a structured workflow for common printer incidents.
+- Determine whether an issue is printer-side, workstation-side, or network-side.
+- Demonstrate logical progression from basic checks to more advanced troubleshooting.
+- Incorporate validation, documentation, and escalation into the troubleshooting process.
+- Create a reusable technical reference suitable for IT support environments.
+
 This project provides a repeatable troubleshooting workflow that helps isolate the affected layer before remediation is attempted.
 
 **Printer Troubleshooting Decision Tree**
@@ -34,13 +42,7 @@ Validate the driver and port configuration and inspect the Windows Print Spooler
 **6. Resolution, Validation, and Escalation**
 Confirm successful printing and user functionality. If unresolved, document the evidence and troubleshooting already performed before escalating.
 
-**Project Objectives**
 
-- Develop a structured workflow for common printer incidents.
-- Determine whether an issue is printer-side, workstation-side, or network-side.
-- Demonstrate logical progression from basic checks to more advanced troubleshooting.
-- Incorporate validation, documentation, and escalation into the troubleshooting process.
-- Create a reusable technical reference suitable for IT support environments.
 
 
 
