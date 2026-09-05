@@ -10,7 +10,27 @@ I created this decision tree as a standardized troubleshooting reference for com
 
 Printer incidents can involve several different layers, including physical hardware, workstation configuration, print queues, network connectivity, drivers, ports, and Windows services. Troubleshooting without a structured process can result in unnecessary changes, longer resolution times, and incomplete incident documentation.
 
+
+
 This project provides a repeatable troubleshooting workflow that helps isolate the affected layer before remediation is attempted.
+
+**1. Scope and Symptom Confirmation**
+Determine what the user is experiencing and whether the issue affects one user or multiple users.
+
+**2. Physical Printer Validation**
+Check power, paper, jams, toner/ink, errors, and whether the printer can generate its own internal test page.
+
+**3. Windows and Queue Validation**
+Confirm the correct printer, printer status, and print queue condition.
+
+**4. Connection and Network Validation**
+Determine whether the printer is locally attached or network-connected. For network printers, verify addressing, connectivity, reachability, and the configured printer port.
+
+**5. Driver and Print Spooler Troubleshooting**
+Validate the driver and port configuration and inspect the Windows Print Spooler when appropriate.
+
+**6. Resolution, Validation, and Escalation**
+Confirm successful printing and user functionality. If unresolved, document the evidence and troubleshooting already performed before escalating.
 
 **Project Objectives**
 
@@ -22,6 +42,6 @@ This project provides a repeatable troubleshooting workflow that helps isolate t
 
 
 
-Navigation
+**Navigation**
 
 [`Back to GitHub Profile`](https://www.github.com/cbueker-it)
