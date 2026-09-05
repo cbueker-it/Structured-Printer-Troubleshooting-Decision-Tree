@@ -14,7 +14,7 @@ This project provides a repeatable troubleshooting workflow that helps isolate t
 
 **Printer Troubleshooting Decision Tree**
 
-![Printer Troubleshooting Decision Tree](images/00-printer-troubleshooting-decision-tree.png)
+![Printer Troubleshooting Decision Tree](images/00-structured-printer-troubleshooting-decision-tree.png)
 
 This project provides a repeatable troubleshooting workflow that helps isolate the affected layer before remediation is attempted.
 
