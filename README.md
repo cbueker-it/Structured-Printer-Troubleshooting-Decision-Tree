@@ -10,7 +10,11 @@ I created this decision tree as a standardized troubleshooting reference for com
 
 Printer incidents can involve several different layers, including physical hardware, workstation configuration, print queues, network connectivity, drivers, ports, and Windows services. Troubleshooting without a structured process can result in unnecessary changes, longer resolution times, and incomplete incident documentation.
 
+This project provides a repeatable troubleshooting workflow that helps isolate the affected layer before remediation is attempted.
 
+**Printer Troubleshooting Decision Tree**
+
+![Printer Troubleshooting Decision Tree](images/00-printer-troubleshooting-decision-tree.png)
 
 This project provides a repeatable troubleshooting workflow that helps isolate the affected layer before remediation is attempted.
 
