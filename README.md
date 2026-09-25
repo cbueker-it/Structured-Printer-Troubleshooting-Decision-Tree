@@ -65,19 +65,17 @@ If the printer cannot generate its own internal page, the problem may be printer
 If the physical printer appears functional, move to the Windows workstation.
 
 Confirm:
-
-The correct printer is selected.
-The printer is not paused.
-"Use Printer Offline" is not enabled unintentionally.
-Windows shows the expected printer status.
-The user is sending the job to the intended printer.
+- The correct printer is selected.
+- The printer is not paused.
+- "Use Printer Offline" is not enabled unintentionally.
+- Windows shows the expected printer status.
+- The user is sending the job to the intended printer.
 
 Review the print queue for:
-
-Stuck jobs.
-Failed jobs.
-Paused jobs.
-Repeated print attempts.
+- Stuck jobs.
+- Failed jobs.
+- Paused jobs.
+- Repeated print attempts.
 
 Clear or cancel failed jobs when appropriate and retry printing.
 
@@ -151,8 +149,24 @@ Components or causes already ruled out.
 
 Escalation should include useful evidence so the next technician does not have to repeat the same troubleshooting.
 
+**Lessons Learned**
+- Structured troubleshooting helps me avoid jumping to conclusions or making unnecessary changes before I understand where the problem is occurring.
+- Starting with the symptoms and scope helps me determine whether I am dealing with one user, one workstation, one printer, or a broader issue.
+- Working from the physical printer through Windows, the print queue, connectivity, drivers, ports, and Print Spooler services gives me a repeatable troubleshooting path.
+- Making one targeted change at a time helps me understand what actually resolves the issue instead of changing several things at once.
+- Validation, documentation, and escalation are part of the troubleshooting process. I want to confirm the fix with the end user, document what I found and what I changed, and escalate with useful information if necessary.
 
+**Summary**
 
+In this project, I demonstrated a structured troubleshooting approach that I use for common Windows printer incidents.
+
+The workflow I use begins by confirming the symptoms and determining the scope. From there, I move to checking and validating the physical printer, reviewing the Windows configuration and print queues, checking connectivity, and then moving into the drivers, printer ports, and finally the Windows Print Spooler service.
+
+The whole idea is to isolate whether the issue is associated with the printer, the workstation, the network, the driver, or a Windows service before planning a fix.
+
+The process ends with validating that the solution works with the end user, documenting the troubleshooting process, and escalating the issue if necessary.
+
+The approach I described here helps reduce unnecessary changes, improves the consistency of troubleshooting, and provides higher-quality information to both users and IT technicians.
 
 **Navigation**
 
