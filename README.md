@@ -24,7 +24,7 @@ This project provides a repeatable troubleshooting workflow that helps isolate t
 
 ![Printer Troubleshooting Decision Tree](images/00%20Printer%20troubleshooting%20chart1.png)
 
-1. Scope and Symptom Confirmation
+**1. Scope and Symptom Confirmation**
 
 Determine exactly what the user is experiencing and the scope of the issue.
 
@@ -41,7 +41,7 @@ Determining scope helps identify whether the problem is likely associated with t
 
 Before making changes, confirm what the user was trying to print, which printer they intended to use, and whether the problem can be reproduced.
 
-2. Physical Printer Validation
+**2. Physical Printer Validation**
 
 Begin with the simplest and most observable causes.
 
@@ -60,7 +60,7 @@ This is an important isolation step because an internal printer test does not de
 
 If the printer cannot generate its own internal page, the problem may be printer-side and should be investigated before making workstation changes.
 
-3. Windows and Queue Validation
+**3. Windows and Queue Validation**
 
 If the physical printer appears functional, move to the Windows workstation.
 
@@ -86,66 +86,60 @@ This step helps determine whether the problem is related to Windows configuratio
 Determine how the workstation communicates with the printer.
 
 For a locally connected printer, verify:
-
-USB connection.
-Correct port.
-Windows device recognition.
-Driver availability.
+- USB connection.
+- Correct port.
+- Windows device recognition.
+- Driver availability.
 
 For a network printer, verify:
-
-The workstation has normal network connectivity.
-The printer has the expected IP address or hostname.
-The Windows printer port points to the correct destination.
-The printer is reachable using an appropriate method.
-Wi-Fi or Ethernet connectivity is functioning as expected.
+- The workstation has normal network connectivity.
+- The printer has the expected IP address or hostname.
+- The Windows printer port points to the correct destination.
+- The printer is reachable using an appropriate method.
+- Wi-Fi or Ethernet connectivity is functioning as expected.
 
 Ping can be useful as a troubleshooting indicator, but a failed ping does not always prove that a printer is unavailable because ICMP may be blocked.
 
 The goal is to determine whether the communication path between the workstation and printer is functioning.
 
-5. Driver and Print Spooler Troubleshooting
+**5. Driver and Print Spooler Troubleshooting**
 
 If the printer is physically functional and connectivity appears normal, inspect the driver and Windows printing services.
 
 Confirm:
-
-The correct printer driver is installed.
-The driver matches the printer model and environment.
-The correct printer port is configured.
-Windows recognizes the printer correctly.
+- The correct printer driver is installed.
+- The driver matches the printer model and environment.
+- The correct printer port is configured.
+- Windows recognizes the printer correctly.
 
 If appropriate, update or reinstall the driver and retry printing.
 
 The Windows Print Spooler service can also be reviewed when print jobs remain stuck or Windows printing appears unresponsive.
 
 When appropriate:
-
-Verify the Print Spooler service is running.
-Restart the Print Spooler.
-Retry the print job.
-Reboot the workstation if justified.
+- Verify the Print Spooler service is running.
+- Restart the Print Spooler.
+- Retry the print job.
+- Reboot the workstation if justified.
 
 In a shared environment, consider the possible impact to other users before restarting services on a print server.
 
-6. Resolution, Validation, and Escalation
+**6. Resolution, Validation, and Escalation**
 
 A troubleshooting action is not complete until the result is validated.
 
 After making a change:
-
-Perform a test print.
-Confirm the correct printer receives the job.
-Confirm the output is correct.
-Verify normal functionality with the user.
+- Perform a test print.
+- Confirm the correct printer receives the job.
+- Confirm the output is correct.
+- Verify normal functionality with the user.
 
 If the problem remains unresolved, document:
-
-The original symptom.
-Troubleshooting steps performed.
-Test results.
-Changes made.
-Components or causes already ruled out.
+- The original symptom.
+- Troubleshooting steps performed.
+- Test results.
+- Changes made.
+- Components or causes already ruled out.
 
 Escalation should include useful evidence so the next technician does not have to repeat the same troubleshooting.
 
