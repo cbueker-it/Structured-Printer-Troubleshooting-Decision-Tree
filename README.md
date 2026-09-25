@@ -22,7 +22,7 @@ This project provides a repeatable troubleshooting workflow that helps isolate t
 
 **Printer Troubleshooting Decision Tree**
 
-![Printer Troubleshooting Decision Tree](images/00%20Printer%20troubleshooting%20chart.png)
+![Printer Troubleshooting Decision Tree](images/00%20Printer%20troubleshooting%20chart1.png)
 
 **1. Scope and Symptom Confirmation**
 Determine what the user is experiencing and whether the issue affects one user or multiple users.
